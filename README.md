@@ -1,8 +1,8 @@
 # DDR4-PCIe-4-vs-DDR5-PCIe-5-for-CUDA-training
 
-This repository compares training on DDR4/PCIe 4 and DDR5/PCIe 5 workstations using RTX PRO 6000 WS GPUs. `train_DDP.py` supports one or two GPUs; `train_PP.py` uses two pipeline stages. The plot report cumulative training-step time to validation loss ≤ 3.28, excluding validation and warm-up.
+This repository compares training on DDR4/PCIe 4 and DDR5/PCIe 5 workstations using RTX PRO 6000 WS GPUs. `train_DDP.py` supports one or two GPUs; `train_PP.py` uses two pipeline stages. The plot reports cumulative training-step time to validation loss ≤ 3.28, excluding validation and warm-up.
 
-<img width="3416" height="2972" alt="workstation-training-comparisons" src="https://github.com/user-attachments/assets/79fa1fde-5fdd-49bc-9ddf-f49fff74a15f" />
+<img width="3416" height="2972" alt="workstation-training-comparisons" src="images/workstation-training-comparisons.png" />
 
 ## Running the benchmarks
 
